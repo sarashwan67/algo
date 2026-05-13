@@ -10,10 +10,10 @@ FileDescriptionMaim.cppRecursive solution (Merge Sort + recursive search)main.cp
 How it works
 After sorting the array, only one check is needed per consecutive triplet:
 A[i] + A[i+1] > A[i+2]
-   RecursiveNon    -Recursive
-Sort Merge Sort    Insertion Sort
-Time O(n log n)       O(n²)
-Space  O(n)           O(1)
+     RecursiveNon    -Recursive
+Sort  Merge Sort    Insertion Sort
+Time  O(n log n)       O(n²)
+Space O(n)              O(1)
 
 Run
 bashg++ Maim.cpp -o recursive && ./recursive
